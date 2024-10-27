@@ -8,42 +8,56 @@ initial-scale=1.0">
     <title>Mi Currículum Vitae</title>
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
+
 <header>
-    <h1>Ariana Gonzabay</h1>
+    <nav>
+        <ul>
+            <li><a href="#resumen">Sobre mí</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
 </header>
-<nav>
-    <ul>
-        <li><a href="#resumen">Sobre mí</a></li>
-        <li><a href="#educacion">Educación</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-    </ul>
-</nav>
 <main>
+
     <section id="resumen">
-        <h2 class="subtitle">Sobre mí</h2>
-        <p>Apasionada por la tecnología con un fuerte deseo de aprender a desarrollar soluciones innovadoras y
-            funcionales. Mi interés se basa en descubrir cómo las herramientas tecnológicas pueden mejorar la vida
-            cotidiana de las personas y facilitar sus tareas. Estoy comprometida con el aprendizaje continuo y busco
-            oportunidades que me permitan expandir mis habilidades y contribuir a proyectos que realmente hagan la
-            diferencia.</p>
-        <img id="photo"
-            src="data:image/jpeg;base64,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"
-            alt="photo">
+        <div class="perfil-container">
+            <h1>Ariana Gonzabay</h1>
+            <div class="foto-container">
+                <img id="photo"
+                    src="data:image/jpeg;base64,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"
+                    alt="photo">
+            </div>
+        </div>
+        <div class="info">
+            <h2 class="subtitle">Sobre mí</h2>
+            <p>Apasionada por la tecnología con un fuerte deseo de aprender a desarrollar soluciones innovadoras y
+                funcionales. Mi interés se basa en descubrir cómo las herramientas tecnológicas pueden mejorar la vida
+                cotidiana de las personas y facilitar sus tareas. Estoy comprometida con el aprendizaje continuo y busco
+                oportunidades que me permitan expandir mis habilidades y contribuir a proyectos que realmente hagan la
+                diferencia.</p>
+        </div>
     </section>
     <section id="educacion">
         <h2 class="subtitle">Educación</h2>
-        <h3>Ingeniería en Computación</h3>
-        <p>Escuela Superior Politécnica del Litoral</p>
-        <p><strong>Inicio: </strong>2021 - Presente</p>
-        <ul>
-            <li>Adquiriendo conocimientos en programación</li>
-            <li>Familiarizándome con diversas tecnologías y herramientas de desarrollo</li>
-            <li>Desarrollando habilidades en la resolución de problemas y aplicaciones en soluciones tecnológicas</li>
-        </ul>
-        <iframe width="415" height="300" src="https://www.youtube.com/embed/wg3tIeVUcHM" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+        <div class="info-educacion">
+            <h3>Ingeniería en Computación</h3>
+            <p>Escuela Superior Politécnica del Litoral</p>
+            <p><strong>Inicio: </strong>2021 - Presente</p>
+            <ul>
+                <li>Adquiriendo conocimientos en programación</li>
+                <li>Familiarizándome con diversas tecnologías y herramientas de desarrollo</li>
+                <li>Desarrollando habilidades en la resolución de problemas y aplicaciones en soluciones tecnológicas
+                </li>
+            </ul>
+        </div>
+        <div class="video-educacion">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/wg3tIeVUcHM" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </section>
 
     <section id="habilidades">
@@ -188,7 +202,7 @@ initial-scale=1.0">
 
                     <button type="submit">Enviar</button>
                 </form>
-                
+
             </div>
         </section>
     </section>
